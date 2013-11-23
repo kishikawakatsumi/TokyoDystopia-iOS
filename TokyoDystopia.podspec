@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author                = { "kishikawakatsumi" => "kishikawakatsumi@mac.com" }
   s.source                = { :git => "https://github.com/kishikawakatsumi/TokyoDystopia-iOS.git", :tag => "v#{s.version}" }
   
-  s.source_files          = "Vendor/**/*.{h,m}"
+  s.source_files          = "Vendor/**/*.{h,c}"
   s.requires_arc          = false
 end
